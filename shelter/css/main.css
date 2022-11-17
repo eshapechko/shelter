@@ -1,0 +1,406 @@
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 60px 0;
+}
+.logo h1 a {
+  color: #f1cdb3;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+}
+.subtitle {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  line-height: 15px;
+}
+ul li a {
+  color: #cdcdcd;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding-bottom: 7px;
+}
+ul li a:hover {
+  color: #fff;
+}
+.active {
+  color: #fafafa;
+  border-bottom: #f1cdb3 solid 3px;
+}
+
+/* Section hero */
+
+.hero {
+  padding-top: 180px;
+  background: linear-gradient(90.26deg, #7d604b 0.23%, #251000 99.8%);
+}
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.people {
+  max-width: 460px;
+  padding-bottom: 83px;
+}
+.dog img {
+  display: block;
+}
+.people h2 {
+  font-size: 44px;
+  color: #fff;
+  letter-spacing: 0;
+  max-width: 325px;
+  line-height: 57px;
+}
+.people p {
+  font-family: Arial;
+  color: #cdcdcd;
+  font-size: 15px;
+  line-height: 160%;
+  padding: 42px 0 41px 0;
+}
+
+/* Section About */
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.section-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pets {
+  margin-right: 120px;
+}
+.pets img {
+  display: block;
+}
+
+.about__shelter p {
+  color: #4c4c4c;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  max-width: 430px;
+  line-height: 160%;
+  padding-top: 25px;
+}
+
+/* Section Our friends */
+
+.our-friends {
+  padding: 80px 0 100px 0;
+  background: #f6f6f6;
+}
+.our-friends .container {
+  text-align: center;
+}
+.our-friends .container h2 {
+  padding-bottom: 60px;
+}
+.slaider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.animal {
+  display: flex;
+  justify-content: space-between;
+}
+.card,
+.card-center {
+  background-color: #fafafa;
+  padding-bottom: 30px;
+}
+.card-center {
+  margin: 0 90px;
+}
+.card:hover,
+.card-center:hover {
+  background-color: #fff;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+.animal p {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  padding: 30px 0;
+}
+.our-friends .primary {
+  margin-top: 60px;
+}
+.arrow-left {
+  order: -1;
+}
+.arrow-left,
+.arrow-right {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  background: transparent;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  background-color: #fddcc4;
+  border-radius: 100px;
+}
+
+/* Section Help */
+
+.help {
+  padding: 80px 0 43px 0;
+}
+.help .container {
+  text-align: center;
+}
+.help h2 {
+  max-width: 310px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.help-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.help-content div {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 55px;
+}
+.icon {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.help-content div p {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  line-height: 23px;
+}
+
+/* Section Donation */
+.donation {
+  padding: 80px 0 100px 0;
+  background: #f6f6f6;
+}
+.flex-donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.donation-dog {
+  margin-right: 30px;
+}
+.information-donation h2 {
+  margin-bottom: 20px;
+  line-height: 45px;
+  padding-bottom: 1px;
+}
+.name-bank {
+  font-size: 15px;
+  color: #545454;
+}
+.credit {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.credit-card {
+  background-image: url(../images/credit-card.svg);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-color: #f1cdb3;
+  padding: 10px 15px 10px 60px;
+  border-radius: 9px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 23px;
+  color: #545454;
+}
+
+.legal-information {
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+  margin-bottom: 1px;
+  max-width: 380px;
+}
+@media (max-width: 1220px) {
+  .dog img {
+    max-width: 569px;
+  }
+  .card-center {
+    margin: 0 0 0 40px;
+  }
+  .help-content {
+    max-width: 630px;
+    margin: auto;
+  }
+  .help-content div {
+    width: 33.3333%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1070px) {
+  .card:last-child {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  header {
+    padding: 30px 0 30px 0;
+  }
+  .section-hero {
+    display: block;
+  }
+  .people,
+  .dog img {
+    margin: auto;
+  }
+  .people > div {
+    text-align: center;
+  }
+  .section-about {
+    max-width: 437px;
+  }
+  .pets {
+    order: 1;
+    margin: auto;
+  }
+  .about__shelter {
+    margin-bottom: 80px;
+  }
+  .flex-donation {
+    max-width: 505px;
+    margin: auto;
+  }
+  .donation-dog {
+    order: 1;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 150px;
+  }
+  .slaider {
+    display: block;
+  }
+  .animal {
+    justify-content: center;
+  }
+  .our-friends .primary {
+    margin-top: 42px;
+  }
+  .arrow-left,
+  .arrow-right {
+    margin-top: 20px;
+  }
+  .arrow-left {
+    margin-right: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .people {
+    max-width: 300px;
+  }
+  .people h2 {
+    letter-spacing: 0.06em;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .about__shelter h2 {
+    text-align: center;
+  }
+  .people p {
+    text-align: center;
+  }
+  .dog {
+    margin-top: 22px;
+  }
+  .dog img,
+  .pets img {
+    max-width: 260px;
+  }
+  .about,
+  .our-friends,
+  .donation,
+  .help {
+    padding: 42px 0;
+  }
+  .about__shelter {
+    margin-bottom: 42px;
+  }
+  .card-center {
+    display: none;
+  }
+  .help h2 {
+    margin-bottom: 42px;
+  }
+  .icon {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  .help-content {
+    max-width: 290px;
+    justify-content: space-between;
+  }
+  .help-content div {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .help-content div p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .donation-dog img {
+    max-width: 260px;
+  }
+  .donation-dog {
+    padding-top: 42px;
+  }
+}
+@media (max-width: 470px) {
+  h2,
+  .about__shelter h2,
+  .information-donation h2 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .about__shelter p {
+    max-width: 270px;
+    text-align: justify;
+  }
+  .our-friends .container h2 {
+    padding-bottom: 42px;
+  }
+  .credit-card {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .name-bank {
+    line-height: 24px;
+  }
+  .flex-donation {
+    max-width: 281px;
+  }
+}

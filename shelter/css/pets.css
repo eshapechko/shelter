@@ -1,0 +1,123 @@
+header {
+  padding: 30px 0;
+  background-color: #fff;
+}
+.logo h1 a {
+  color: #545454;
+  font-weight: 400;
+  text-decoration: none;
+}
+.subtitle {
+  color: #292929;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+ul li a {
+  color: #545454;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding-bottom: 7px;
+}
+ul li a:hover {
+  color: #292929;
+}
+.active {
+  border-bottom: #f1cdb3 solid 3px;
+}
+
+/* Main */
+main {
+  padding: 80px 0 100px;
+  background-color: #f6f6f6;
+}
+h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.our-friends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card {
+  background-color: #fafafa;
+  width: 270px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+.card p {
+  margin: 30px 0;
+  color: #545454;
+  letter-spacing: 0.06em;
+  font-size: 20px;
+}
+.pets-navigator {
+  width: 340px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pets-nav-button {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.pets-navigator .disabled {
+  border: 2px solid #cdcdcd;
+  color: #cdcdcd;
+  background-color: #fff;
+}
+.pets-navigator .active-page {
+  border: 2px solid #f1cdb3;
+  background-color: #f1cdb3;
+  color: #292929;
+}
+.pets-navigator .active-nav {
+  border: 2px solid #f1cdb3;
+  color: #292929;
+  background-color: #fff;
+}
+@media (max-width: 1200px) {
+  .card:last-child,
+  .card:nth-last-child(2) {
+    display: none;
+  }
+  .our-friends {
+    justify-content: space-around;
+    width: 890px;
+    margin: auto;
+  }
+}
+@media (max-width: 920px) {
+  .our-friends {
+    justify-content: space-between;
+    width: 580px;
+  }
+}
+@media (max-width: 730px) {
+  .pets-navigator {
+    max-width: 300px;
+  }
+}
+@media (max-width: 630px) {
+  .our-friends {
+    width: 270px;
+  }
+  .card:nth-last-child(3),
+  .card:nth-last-child(4),
+  .card:nth-last-child(5) {
+    display: none;
+  }
+}
