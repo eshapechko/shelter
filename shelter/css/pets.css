@@ -106,12 +106,10 @@ h2 {
     width: 580px;
   }
 }
-@media (max-width: 730px) {
-  .pets-navigator {
-    max-width: 300px;
-  }
-}
 @media (max-width: 630px) {
+  h2 {
+    font-size: 25px;
+  }
   .our-friends {
     width: 270px;
   }
@@ -119,5 +117,8 @@ h2 {
   .card:nth-last-child(4),
   .card:nth-last-child(5) {
     display: none;
+  }
+  .pets-navigator {
+    max-width: 300px;
   }
 }
