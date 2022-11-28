@@ -154,6 +154,7 @@ ul li a:hover {
 .arrow-right:hover {
   background-color: #fddcc4;
   border-radius: 100px;
+  border: 2px solid #fddcc4;
 }
 
 /* Section Help */
@@ -245,7 +246,7 @@ ul li a:hover {
     max-width: 569px;
   }
   .card-center {
-    margin: 0 40px;
+    margin: 0 0 0 40px;
   }
   .help-content {
     max-width: 630px;
