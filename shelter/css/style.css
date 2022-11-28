@@ -13,6 +13,9 @@ body {
 nav {
   font-family: Arial, sans-serif;
 }
+.mobile-menu {
+  display: none;
+}
 .mob-menu {
   display: none;
 }
@@ -135,9 +138,14 @@ footer div img {
   nav {
     display: none;
   }
+  .mobile-menu {
+    display: block;
+    margin-right: 43px;
+    border: none;
+    background: transparent;
+  }
   .mob-menu {
     display: block;
-    padding-right: 43px;
   }
 }
 

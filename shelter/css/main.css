@@ -245,7 +245,7 @@ ul li a:hover {
     max-width: 569px;
   }
   .card-center {
-    margin: 0 0 0 40px;
+    margin: 0 40px;
   }
   .help-content {
     max-width: 630px;
@@ -396,6 +396,7 @@ ul li a:hover {
   .credit-card {
     font-size: 15px;
     line-height: 17px;
+    letter-spacing: 0.05em;
   }
   .name-bank {
     line-height: 24px;
